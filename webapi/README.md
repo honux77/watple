@@ -1,5 +1,6 @@
-# WatPle.com Developer Page
-This is the sourcecode for WatPle.com
+## README for REST API for Watple 
+This is the API sourcecode for WatPle.com
+
 ***
 ### This sites are powerd by:
 

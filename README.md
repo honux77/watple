@@ -2,9 +2,12 @@
 This is the sourcecode for WatPle.com
 ***
 ### This sites are powerd by:
-
+* angluarjs: https://angularjs.org/
 * python: https://www.python.org/
 * Flask: http://flask.pocoo.org/
+
+### Powered by many of Amazon Web Services: 
+
 * Elastic Beanstalk: http://aws.amazon.com/ko/elasticbeanstalk/
 
 ### We used various programing tools:

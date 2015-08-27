@@ -1,11 +1,9 @@
 #!/bin/bash
 yum -y update
-sudo yum -y install nodejs npm --enablerepo=epel
+yum -y install nodejs npm --enablerepo=epel
+npm -g install http-server
 cd /home/ec2-user
 aws s3 cp s3://watple-dev/web/watple.tar.gz .
 tar xvf watple.tar.gz
 cd web
-npm install pm2 -g
-pm2 start server.js
-pm2 startup
-pm2 save
+http-server -p 80 ./

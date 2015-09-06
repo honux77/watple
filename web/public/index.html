@@ -1,23 +1,24 @@
 <!doctype html>
 <html ng-app>
-	<head>
-	</head>
-	<body>
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.4&appId=708139772653289";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
+<head>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.4&appId=708139772653289";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
 </script>
-		<div id="logo" align="center">
-			<h1>Play Game with Watple.com</h1>
-		</div>
-		<div align="center">
-			<img src="https://s3-ap-northeast-1.amazonaws.com/static-watple/images/pad.png"/>
-		</div>
-		<div class="fb-login-button" data-max-rows="1" data-size="xlarge" data-show-faces="true" data-auto-logout-link="true"></div>
-	</body>
+<div id="container" align="center">
+<div id="logo" align="center">
+<h1>WATPLE</h1>
+<img src="https://s3-ap-northeast-1.amazonaws.com/static-watple/images/pad.png"/>
+</div>
+<div id="login" class="fb-login-button" data-max-rows="1" data-size="xlarge" data-show-faces="true" data-auto-logout-link="true"></div>
+</div>
+</div>
+</body>
 </html>

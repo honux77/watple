@@ -1,0 +1,23 @@
+# need to uncomment bind option /etc/mongdodb.conf
+# need to enable authentication option
+
+use admin
+db.createUser(
+  {
+    user: "honux",
+    pwd: "dm@year",
+    roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
+  }
+)
+
+use watpledb
+db.dropUser('watpleuser')
+db.createUser(
+  {
+    user: "watpleuser",
+    pwd: "gm@year",
+    roles: [ { role: "userAdmin", db: "watpledb" },
+            { role: "readWrite", db: "watpledb" },
+        ]
+  }
+)

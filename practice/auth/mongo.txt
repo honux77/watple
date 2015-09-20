@@ -15,7 +15,7 @@ db.dropUser('webuser')
 db.createUser(
   {
     user: "webuser",
-    pwd: "pass567@",
+    pwd: "pass567$",
     roles: [ { role: "userAdmin", db: "webdb" },
             { role: "readWrite", db: "webdb" },
         ]

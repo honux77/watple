@@ -30,59 +30,31 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-
-  <style>
-  .background-image {
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    display: block;
-    background-image: url('https://s3-ap-northeast-1.amazonaws.com/watple-public/img/main1509.jpg');
-    width: 1200px;
-    height: 800px;
-    -webkit-filter: blur(3px);
-    -moz-filter: blur(3px);
-    -o-filter: blur(3px);
-    -ms-filter: blur(3px);
-    filter: blur(3px);
-  }
-
-  .content {
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  </style>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.4&appId=708139772653289";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-  </script>
-  <div class="background-image"></div>
-  <div class="content">
-    <div id="logo">
-      <h3>WATPLE.COM</h3>
-    </div>
-    <div id="main">
-      <h1> What Game to Play?</h1>
-      <p>왓플닷컴에서 좋아하는 게임을 검색하고 공유해 보세요. </p>
-    </div>
-    <div id="login">
-      <div id="login" class="fb-login-button" data-max-rows="1" data-size="xlarge" data-show-faces="true" data-auto-logout-link="true"></div>
-      <div id="fb-root"></div>
+  <header>
+  <div class="w3-container w3-center">
+    <h1>Watple.com</h1>
+    <p>Find Games to play!</p>
+       <div class="w3-padding-4">
+         <a href="fblogin.html" class="w3-btn w3-blue">페이스북으로 로그인</a>
+       </div>
+      <div class="w3-padding-4">
+      <a href="login.html" class="w3-btn w3-grey">아이디로 로그인</a> <br>
+      또는 <a href="signup.html" class="w3-small">회원 가입</a>
     </div>
   </div>
+</header>
+<div class="w3-container w3-center">
+  <p>Test</p>
+  <div class="w3-image">
+    <i class="fa fa-gamepad w3-jumbo"></i>
+  </div>
+</div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </body>
 </html>

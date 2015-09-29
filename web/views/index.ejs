@@ -6,58 +6,99 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <meta name="description" content="watple intro">
+  <meta name="description" content="watple.com Intro page">
   <meta name="author" content="Hodor">
 
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/favicon/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
   <title>Watple.com</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
+<!-- Custom styles for this template -->
+<link href="css/cover.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
 </head>
 
 <body>
-  <header>
-  <div class="w3-container w3-center">
-    <h1><i class="fa fa-gamepad"></i>Watple.com</h1>
-    <p>Find Games to play!</p>
-    <!-- facebook login
-       <div class="w3-padding-4">
-         <a href="fblogin.html" class="w3-btn w3-blue">페이스북으로 로그인</a>
-       </div>
-     -->
-      <div class="w3-padding-4">
-      <a href="/login" class="w3-btn w3-grey">아이디로 로그인</a> <br>
-      또는 <a href="signup.html" class="w3-small">회원 가입</a>
+  <div class="site-wrapper">
+
+    <div class="site-wrapper-inner">
+
+      <div class="cover-container">
+
+        <div class="masthead clearfix">
+          <div class="inner">
+            <h3 class="masthead-brand"<i class="fa fa-gamepad"></i>Watple.com</h3>
+            <nav>
+              <ul class="nav masthead-nav">
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/donate">Donate</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="inner cover">
+          <h1 class="cover-heading">What game do you play today?</h1>
+          <p class="lead">게임 정보를 검색해 보세요.</p>
+          <!-- facebook login
+          <p class="lead">
+            <a href="/flogin" class="btn btn-lg btn-default">페이스북 로그인</a>
+          </p>
+           -->
+          <p class="lead">
+            <a href="/login" class="btn btn-lg btn-default">아이디로 로그인</a>
+          </p>
+          <p class="lead">
+            <a href="/signup" class="btn btn-sm btn-link">또는 간편 회원 가입</a>
+          </p>
+          <p class="lead">
+            <a href="https://namu.wiki/w/%EC%A0%A4%EB%8B%A4%EC%9D%98%20%EC%A0%84%EC%84%A4%20%EA%BF%88%EA%BE%B8%EB%8A%94%20%EC%84%AC">
+            <img src="https://s3-ap-northeast-1.amazonaws.com/watple-public/img/link1.png" style="width:400px">
+            </a>
+          </p>
+          <p class="lead">젤다의 전설: 꿈꾸는 섬 (1993. 6.6)</p>
+        </div>
+
+        <div class="mastfoot">
+          <div class="inner">
+            <p>(c)2015 Watple.com</p>
+          </div>
+        </div>
+
+      </div>
+
     </div>
-  </div>
-</header>
-<div class="w3-container w3-center">
-  <div class="w3-image">
-    <img src="https://s3-ap-northeast-1.amazonaws.com/watple-public/img/link1.png" style="width:400px">
-  </div>
-  <div class="w3-title">젤다의 전설: 꿈꾸는 섬 (1993. 6.6)</div>
 
-</div>
+  </div>
 
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
 </body>
 </html>

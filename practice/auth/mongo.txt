@@ -2,22 +2,22 @@
 # need to enable authentication option
 
 use admin
-db.dropuser('honux')
+db.dropuser('wadmin')
 db.createUser(
   {
-    user: "honux",
+    user: "wadmin",
     pwd: "pass123$",
     roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
   }
 )
-use webdb
-db.dropUser('webuser')
+use watplewebdb
+db.dropUser('watpleweb')
 db.createUser(
   {
-    user: "webuser",
+    user: "watpleweb",
     pwd: "pass567$",
-    roles: [ { role: "userAdmin", db: "webdb" },
-            { role: "readWrite", db: "webdb" },
+    roles: [ { role: "userAdmin", db: "watplewebdb" },
+            { role: "readWrite", db: "watplewebdb" },
         ]
   }
 )

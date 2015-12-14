@@ -127,6 +127,9 @@ body {
   color: rgba(255,255,255,.5);
 }
 
+.main-image {
+    text-align: center;
+}
 
 /*
  * Affix and center

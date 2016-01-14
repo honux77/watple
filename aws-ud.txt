@@ -1,9 +1,0 @@
-#!/bin/bash
-yum -y update
-yum -y install nodejs npm --enablerepo=epel
-npm -g install http-server
-cd /home/ec2-user
-aws s3 cp s3://watple-dev/web/watple.tar.gz .
-tar xvf watple.tar.gz
-cd web
-http-server -p 80 ./
